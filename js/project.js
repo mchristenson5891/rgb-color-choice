@@ -1,6 +1,6 @@
-// 1. use jQuery to assign the .click event to #color-button
+// 1. Select #color-button from the page, and add an onclick event handler that triggers a functin changeColor;
 
-// 2. Write a function, named changeColor, that is called when #color-button is clicked
+// 2. Write the function, named changeColor, that is called when #color-button is clicked
 
 // 3. Inside of the function changeColor, use variables to store the <input> values from #red, #green, and #blue
 // - Use .value to get the values from the inputs
@@ -10,6 +10,6 @@
 // rgb(x, y, z)
 // - If the user enters: 100, 150, and 200, colorStr should be: rgb(100, 150, 200)
 
-// 5. Use .html() to change the text inside of #colorful-text to colorStr
+// 5. Use .innerHtml to change the text inside of #colorful-text to colorStr
 
-// 6. Use .css(background: xyz) to change the background of #wrapper to colorStr
+// 6. Use .style.background to change the background of #wrapper to colorStr
