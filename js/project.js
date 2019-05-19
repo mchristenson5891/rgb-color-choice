@@ -4,7 +4,7 @@
 
 // 3. Inside of the function changeColor, use variables to store the <input> values from #red, #green, and #blue
 // - Use .value to get the values from the inputs
-// HINT: var red = document.querySelector('#red').value;
+// HINT: let red = document.querySelector('#red').value;
 
 // 4. Create a variable, named colorStr, which concatenates the above red, green, and blue variables into the format:
 // rgb(x, y, z)
